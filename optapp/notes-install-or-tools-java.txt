@@ -1,0 +1,16 @@
+Java library is a swapper of native c++ implementation of or-tools. In order to configure the environment:
+
+1. Copy all library files of or-tools (located in <root_foler>/lib/, for example D:\softwares\or-tools_VisualStudio2017-64bit_v7.4.7247\or-tools_VisualStudio2017-64bit_v7.4.7247\lib) into the lib folder of the project in eclipse
+
+
+2. Setting the java.library path. using Eclipse
+In order to define the java.library.path property in Eclipse, the following steps must be completed:
+
+Select your project in the Package Explorer area and press a right click on it.
+Select Build Path → Configure Build Path... option.
+In the appearing window, select the Libraries tab.
+Then, expand the JRE System library option and select the Native library location.
+Click on the Edit... button at the right panel.
+Locate the required library and then click OK.
+Close the window.
+If the aforementioned steps have been successfully completed, then the selected project will be executed using the required native library.
